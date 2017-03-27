@@ -1,0 +1,380 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Travel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" /> -->
+	<!-- <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" /> -->
+<!-- 	<meta name="author" content="FREEHTML5.CO" /> -->
+
+
+
+<!-- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+font-family: "Montserrat", Montserrat, Arial, sans-serif; -->
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/select2.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body class="bgImg" style="background-image: url(images/Asset/background.png);">
+		<header class="navHead">
+			<div class="container">
+				<div style="width:85px; float: left;">
+					<img src="images/Asset/bangJoni.png" class="" style="height:auto; width: 80px;">
+				</div>
+
+				<div class="textBox">
+					<span><img src="images/Asset/chevron.png" class="dialog"></span>
+					Nah, sekarang tinggal pilih jadwal pesawat yang kamu inginkan deh.
+				</div>
+			</div>
+		</header>
+
+		<!-- end:header-top -->
+
+		<div class="">
+			<div class="container">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="tabulation animate-box">
+
+								  <!-- Nav tabs -->
+								   <ul class="nav nav-tabs" role="tablist">
+								      <li role="presentation" class="active" style="width: 48%; text-align: center;">
+								      	<a href="#flights" aria-controls="flights" role="tab" data-toggle="tab">ONE WAY</a>
+								      </li>
+								      <li role="presentation" style="width: 48%; text-align: center; float:right;">
+								    	   <a href="#hotels" aria-controls="hotels" role="tab" data-toggle="tab">ROUND TRIP</a>
+								      </li>
+								   </ul>
+
+								   <!-- Tab panes -->
+									<div class="tab-content">
+									 <div role="tabpanel" class="tab-pane active" id="flights">
+										<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<!-- <label for="from">From:</label> -->
+													<select name="d" class="form-control select2 f14Bold" id="cbo_from">
+														<option value="From" selected>From</option>
+														<option value="CGK">Jakarta, Soekarno Hatta (CGK)</option>
+														<option value="DPS">Denpasar, I Gusti Ngurah Rai (DPS)</option>
+														<option value="SUB">Surabaya, Juanda (SUB)</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<!-- <label for="from">To:</label> -->
+													<select name="d" class="form-control select2 f14Bold" id="cbo_to">
+														<option value="Your Destination" selected>Your Destination</option>
+														<option value="CGK">Jakarta, Soekarno Hatta (CGK)</option>
+														<option value="DPS">Denpasar, I Gusti Ngurah Rai (DPS)</option>
+														<option value="SUB">Surabaya, Juanda (SUB)</option>
+													</select>
+												</div>
+											</div>
+
+									<div class="row no-margin">
+										<div class="col-xxs-12 mt alternate no-padding">
+
+											<div class="col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start" class="lableFont">BERANGKAT:</label>
+													<div class="input-group">
+								                      <input type="text" class="form-control"  id="date-start" placeholder="mm/dd/yyyy"/>
+								                      <div class="input-group-addon">
+								                        <i class="icon-calendar"></i>
+								                      </div>
+								                    </div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+
+									<div class="row mt no-margin">
+
+										<div class="col-xxs-12 mt alternate no-padding">
+											<div class="col-xs-12 alternate">
+												<label for="class" class="lableFont">PENUMPANG:</label>
+
+												<div class="row">
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+
+														<div class="input-group-addon">
+									                        <img src="images/Asset/iconAdult.png" style="height: 25px;" class="">
+									                     </div>
+								                     </div>
+												</div>
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+														<div class="input-group-addon">
+									                        <img src="images/Asset/iconChild.png" style="height: 25px;" class="">
+									                     </div>
+								                     </div>
+												</div>
+
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+														<div class="input-group-addon">
+										                    <img src="images/Asset/iconBaby.png" style="height: 25px;" class="">
+										                </div>
+								                     </div>
+												</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+
+
+											<div class="col-xs-12 top20" style="padding: 0 15%;">
+												<input onClick="window.location.href='result.html'" type="submit" class="btn btn-primary btn-block" value="CARI TIKET">
+											</div>
+										</div>
+									 </div>
+
+									 <div role="tabpanel" class="tab-pane" id="hotels">
+									 	<div class="row">
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<!-- <label for="from">From:</label> -->
+													<select name="d" class="form-control select2 f14Bold" id="cbo_from">
+														<option value="From" selected>From</option>
+														<option value="CGK">Jakarta, Soekarno Hatta (CGK)</option>
+														<option value="DPS">Denpasar, I Gusti Ngurah Rai (DPS)</option>
+														<option value="SUB">Surabaya, Juanda (SUB)</option>
+													</select>
+												</div>
+											</div>
+
+											<div class="col-xxs-12 col-xs-6 mt">
+												<div class="input-field">
+													<!-- <label for="from">To:</label> -->
+													<select name="d" class="form-control select2 f14Bold" id="cbo_to">
+														<option value="Your Destination" selected>Your Destination</option>
+														<option value="CGK">Jakarta, Soekarno Hatta (CGK)</option>
+														<option value="DPS">Denpasar, I Gusti Ngurah Rai (DPS)</option>
+														<option value="SUB">Surabaya, Juanda (SUB)</option>
+													</select>
+												</div>
+											</div>
+
+									<div class="row no-margin">
+										<div class="col-xxs-12 mt alternate no-padding">
+
+											<div class="col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-start" class="lableFont">BERANGKAT:</label>
+													<div class="input-group">
+								                      <input type="text" class="form-control"  id="date-start" placeholder="mm/dd/yyyy"/>
+								                      <div class="input-group-addon">
+								                        <i class="icon-calendar"></i>
+								                      </div>
+								                    </div>
+												</div>
+											</div>
+
+											<div class="col-xs-6 mt alternate">
+												<div class="input-field">
+													<label for="date-end" class="lableFont">KEMBALI:</label>
+													<div class="input-group">
+								                      <input type="text" class="form-control" id="date-end" placeholder="mm/dd/yyyy"/>
+								                      <div class="input-group-addon">
+								                        <i class="icon-calendar"></i>
+								                      </div>
+								                    </div>
+												</div>
+											</div> 
+										</div>
+									</div>
+
+
+									<div class="row mt no-margin">
+
+										<div class="col-xs-12 alternate">
+												<label for="class" class="lableFont">PENUMPANG:</label>
+
+												<div class="row">
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+
+														<div class="input-group-addon">
+									                        <img src="images/Asset/iconAdult.png" style="height: 25px;" class="">
+									                     </div>
+								                     </div>
+												</div>
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+														<div class="input-group-addon">
+									                        <img src="images/Asset/iconChild.png" style="height: 25px;" class="">
+									                     </div>
+								                     </div>
+												</div>
+
+
+												<div class="col-xs-4 alternate">
+													<div class="input-group">
+														<select class="cs-select cs-skin-border">
+															<option value="" disabled selected>0</option>
+															<option value="1">1</option>
+															<option value="2">2</option>
+															<option value="3">3</option>
+															<option value="4">4</option>
+														</select>
+														<div class="input-group-addon">
+										                    <img src="images/Asset/iconBaby.png" style="height: 25px;" class="">
+										                </div>
+								                     </div>
+												</div>
+												</div>
+											</div>
+									</div>
+
+
+
+											<div class="col-xs-12 top20" style="padding: 0 15%;">
+												<input onClick="window.location.href='result.html'" type="submit" class="btn btn-primary btn-block" value="CARI TIKET">
+											</div>
+										</div>
+									 </div>
+								</div> <!-- Tab content -->
+
+								</div>
+							</div>
+
+							<!-- <div class="desc2 animate-box">
+								<div class="col-sm-7 col-sm-push-1 col-md-7 col-md-push-1">
+									<p>HandCrafted by <a href="http://frehtml5.co/" target="_blank" class="fh5co-site-name">FreeHTML5.co</a></p>
+									<h2>Exclusive Limited Time Offer</h2>
+									<h3>Fly to Hong Kong via Los Angeles, USA</h3>
+									<span class="price">$599</span>
+									 <p><a class="btn btn-primary btn-lg" href="#">Get Started</a></p>
+								</div>
+							</div>  -->
+
+						</div>
+					</div>
+		</div>
+
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+
+			$(".select2").select2({
+                placeholder: "",
+                //allowClear: true
+			});
+		});
+	</script>
+
+	</body>
+</html>

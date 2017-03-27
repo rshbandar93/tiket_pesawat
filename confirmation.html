@@ -1,0 +1,435 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Travel</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <meta name="description" content="Free HTML5 Template by FREEHTML5.CO" /> -->
+	<!-- <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" /> -->
+<!-- 	<meta name="author" content="FREEHTML5.CO" /> -->
+
+
+
+<!-- @import url('https://fonts.googleapis.com/css?family=Montserrat');
+font-family: "Montserrat", Montserrat, Arial, sans-serif; -->
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700,300' rel='stylesheet' type='text/css'>
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Superfish -->
+	<link rel="stylesheet" href="css/superfish.css">
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<!-- Date Picker -->
+	<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+	<!-- CS Select -->
+	<link rel="stylesheet" href="css/cs-select.css">
+	<link rel="stylesheet" href="css/cs-skin-border.css">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/select2.css">
+
+	<!-- <link rel="stylesheet" href="plugins/rangeslider/rangeslider.css"> -->
+
+	<link rel="stylesheet" href="plugins/iCheck/all.css">
+	<link rel="stylesheet" href="plugins/bootstrap-slider/slider.css">
+
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body  style="background-color: #7798c5;">
+		<header class="navHead">
+			<div class="container">
+				<div style="width:85px; float: left;">
+					<img src="images/Asset/bangJoni.png" class="" style="height:auto; width: 80px;">
+				</div>
+
+				<div class="textBox">
+					<span><img src="images/Asset/chevron.png" class="dialog"></span>
+					
+					Coba cek lagi ringkasan pemesanan tiket pesawat yang kamu pilih.
+				</div>
+			</div>
+		</header>
+
+		<!-- end:header-top -->
+
+		<div class="">
+			<div class="row filterBox no-margin">
+				<div class="col-xs-4"><button class="btnBlank" data-toggle="collapse" data-target="#MASKAPAI">MASKAPAI</button></div>
+				<div class="col-xs-4"><button class="btnBlank" data-toggle="collapse" data-target="#WAKTU">WAKTU</button></div>
+				<div class="col-xs-4"><button class="btnBlank" data-toggle="collapse" data-target="#TRANSIT">TRANSIT</button></div> 
+			</div>
+
+			<div id="MASKAPAI" class="collapse filterCollapse">
+				<div class="row filterBox no-margin">
+					<div class="col-xs-8" style="text-align: left; padding: 2px 0;">MASKAPAI</div>
+					<div class="col-xs-4" style="padding: 0;"><button style="float: right;" class="btn btn-primary btnPad" data-toggle="collapse" data-target="#MASKAPAI">DONE</button></div> 
+				</div>
+				<div class="form-group" style="padding:0 15px;">
+					<div style="border-bottom:2px solid #d2cece; padding-top:10px; padding-bottom:5px;">
+						<span class="selectAll">SELECT ALL</span>
+						<span class="clearAll">CLEAR ALL</span>
+					</div>
+
+
+					<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Air Asia</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Asia" name="check" checked />
+							    <label for="Asia"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Batik Air</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Batik" name="Batik" checked />
+							    <label for="Batik"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Citilink</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Citilink" name="Citilink" checked />
+							    <label for="Citilink"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Garuda Indonesia</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Garuda" name="Garuda" checked />
+							    <label for="Garuda"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Lion Air</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Lion" name="Lion" checked />
+							    <label for="Lion"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Malaysia Airlines</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Malaysia" name="Malaysia" checked />
+							    <label for="Malaysia"></label>
+							</label>  
+	                    </span>
+                  	</div> 
+  
+				</div>
+			</div>
+
+			<div id="WAKTU" class="collapse filterCollapse">
+				<div class="row filterBox no-margin">
+					<div class="col-xs-8" style="text-align: left; padding: 2px 0;">WAKTU</div>
+					<div class="col-xs-4" style="padding: 0;"><button style="float: right;" class="btn btn-primary btnPad" data-toggle="collapse" data-target="#WAKTU">DONE</button></div>
+				</div>
+
+
+				<div class="form-group" style="padding:0 15px;">
+					<div style="border-bottom:1.5px solid #999999; padding-top:5px; padding-bottom:5px;">
+						<span class="clearAll" style="padding:0;">DEPARTURE TIMES</span>
+					</div>
+
+					<div style="padding:10px 0">
+						<div style="font-size:14px; color:#000000">Outbond</div>
+						<div style="font-size:12px;">00:00 - 23:59</div> 
+						<input id="ex1" type="text" class="span2" value="" data-slider-min="100" data-slider-max="2400" data-slider-step="100" data-slider-value="[0,2300]"/>
+					</div>
+
+
+					<div style="padding:10px 0">
+						<div style="font-size:14px; color:#000000">Return</div>
+						<div style="font-size:12px;">00:00 - 23:59</div> 
+						<input id="ex2" type="text" class="span2" value="" data-slider-min="100" data-slider-max="2400" data-slider-step="100" data-slider-value="[0,2300]"/>
+					</div>
+				</div>
+			</div>
+
+			<div id="TRANSIT" class="collapse filterCollapse">
+				<div class="row filterBox no-margin">
+					<div class="col-xs-8" style="text-align: left; padding: 2px 0;">TRANSIT</div>
+					<div class="col-xs-4" style="padding: 0;"><button style="float: right;" class="btn btn-primary btnPad" data-toggle="collapse" data-target="#TRANSIT">DONE</button></div> 
+				</div>
+
+				<div class="form-group" style="padding:0 15px;">
+					<div style="border-bottom:1.5px solid #999999; padding-top:5px; padding-bottom:5px;">
+						<span class="clearAll" style="padding:0;">STOPS</span>
+					</div>
+
+
+					<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">Direct</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Malaysia" name="Malaysia" checked />
+							    <label for="Malaysia"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+
+                  	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">1 Stop</span>
+						<span class="f14" style="float:right;">
+							 IDR 500.000  
+							<label class="squaredFour">
+							    <input type="checkbox" value="None" id="Malaysia" name="Malaysia" checked />
+							    <label for="Malaysia"></label>
+							</label>  
+	                    </span>
+                  	</div>
+
+				 	<div Class="listBox"> 
+						<span class="bold f14" style="float:left;">2x Stop</span>
+						<span style="float:right;">
+							None
+	                    </span>
+                  	</div>
+				</div>
+				
+			</div>
+		</div>
+
+		<div class="row no-margin">
+			<div class="col-xs-12" style="background-color:#fff; padding:10px 15px; margin-bottom:5px;">
+				<div style="font-size: 14px; line-height: 14px; color: #326699; font-weight: bold; border-bottom: 1.5px solid #999999; padding: 5px 0;">
+				PENERBANGAN PERGI </br> <span style="font-size: 10px; color: #a5a5a5;">Jumat, 11 Maret 2017</span>
+				</div>
+
+				<div>
+					<img src="images/Asset/lionTiket.png" style="height: 20px; margin: 10px 0;">
+				</div>
+
+				<div style="width: 100%; float: left; border-bottom: 1px solid #999999; padding-bottom: 5px;">
+					<div class="col-xs-5 arrive" style="padding: 0 !important;">
+						<div class="timesConfirm">08.30</div>
+						<div class="timesConfirm" data-id="10485"> Jakarta (CGK)</div>
+						<div style="font-size:9px;">Jumat, 11 Maret 2017</div>
+					</div>
+
+					<div class="col-xs-2 stopBox" style="padding: 5px !Important; font-size: 8px;">
+						<div class="stops">
+							<ul class="stop-line"> 
+								<img class="directArrow" src="images/Asset/cheright.png">
+							</ul>
+																
+							<div class="leg-stops">
+								<span class="leg-stops-red leg-stops-label">DIRECT</span> 
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-5 arrive" style="padding: 0 10px !important;">
+						<div class="timesConfirm">08.30</div>
+						<div class="timesConfirm" data-id="10485">Denpasar (DPS)</div>
+						<div style="font-size:9px;">Jumat, 11 Maret 2017</div>
+					</div>
+				</div>	
+
+				<div style="width:100%; float: left; padding-top: 10px; color:#efbd03;">
+					<span style="text-align:left; font-size:10px; font-weight: bold;">HARGA</span>
+					<span style="text-align:right; float:right; font-weight:bold; font-size:14px;">IDR 583,7434</span>
+				</div>			
+			
+			</div>
+
+
+			<div class="col-xs-12" style="background-color:#fff; padding:10px 15px; margin-bottom:5px;">
+				<div style="font-size: 14px; line-height: 14px; color: #326699; font-weight: bold; border-bottom: 1.5px solid #999999; padding: 5px 0;">
+				PENERBANGAN PULANG </br> <span style="font-size: 10px; color: #a5a5a5;">Jumat, 11 Maret 2017</span>
+				</div>
+
+				<div>
+					<img src="images/Asset/lionTiket.png" style="height: 20px; margin: 10px 0;">
+				</div>
+
+				<div class="col-xxs-12 col-xs-8 padLR" style="float: left; border-bottom: 1px solid #999999; padding-bottom: 5px;">
+					<div class="col-xs-5 arrive" style="padding: 0 !important;">
+						<div class="timesConfirm">08.30</div>
+						<div class="timesConfirm" data-id="10485"> Jakarta (CGK)</div>
+						<div style="font-size:9px;">Jumat, 11 Maret 2017</div>
+					</div>
+
+					<div class="col-xs-2 stopBox" style="padding: 5px !Important; font-size: 8px;">
+						<div class="stops">
+							<ul class="stop-line"> 
+								<img class="directArrow" src="images/Asset/cheright.png">
+							</ul>
+																
+							<div class="leg-stops">
+								<span class="leg-stops-red leg-stops-label">DIRECT</span> 
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-5 arrive" style="padding: 0 10px !important;">
+						<div class="timesConfirm">08.30</div>
+						<div class="timesConfirm" data-id="10485">Denpasar (DPS)</div>
+						<div style="font-size:9px;">Jumat, 11 Maret 2017</div>
+					</div>
+				</div>	
+
+				<div class="col-xxs-12 col-xs-4 padLR" style="float: left; padding-top: 10px; color:#efbd03;">
+					<span class="col-xs-6 col-md-12 col-sm-12" style="text-align:left; font-size:10px; font-weight: bold;">HARGA</span>
+					<span class="col-xs-6 col-md-12 col-sm-12"  style="text-align:right; float:right; font-weight:bold; font-size:14px;">IDR 583,7434</span>
+				</div>		
+			
+			</div>
+
+
+			<div class="col-xs-12 totalBox" style="font-size: 14px; color: #efbd03;">
+				TOTAL : <span> IDR 1.677.000</span>
+			</div>
+
+
+			<div class="col-xs-12" style="text-align:center; width:100%;">  
+				<button onClick="window.location.href='order-form.html'" style="margin: 20px auto; padding: 5px; font-size: 14px; width: 70%;" type="submit" class="btn btn-primary btn-block" value="PESAN">PESAN </button>  
+			</div>
+
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- jQuery -->
+
+
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/sticky.js"></script>
+
+	<!-- Stellar -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Superfish -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+
+	<!-- iCheck 1.0.1 -->
+    <script src="plugins/iCheck/icheck.min.js"></script>
+    <script src="plugins/iCheck/icheck.js"></script>
+
+    <script src="plugins/bootstrap-slider/bootstrap-slider.js"></script>
+    <!-- <script src="plugins/bootstrap-slider/bootstrap-slider.js"></script>  -->
+
+    <script src="plugins/rangeslider/rangeslider.js"></script>
+
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+
+	<script>
+
+		$(document).ready(function(){
+
+			$(".select2").select2({
+                placeholder: "",
+                //allowClear: true
+			});
+
+			// // With JQuery
+			// $('#ex1').slider({
+			// 	formatter: function(value) {
+			// 		return 'Current value: ' + value;
+			// 	}
+			// });
+			//
+			// // Without JQuery
+			// var slider = new Slider('#ex1', {
+			// 	formatter: function(value) {
+			// 		return 'Current value: ' + value;
+			// 	}
+			// });
+			//
+			//
+			// // With JQuery
+			$("#ex1").slider({});
+			$("#ex2").slider({});
+			//
+			// // Without JQuery
+			// var slider = new Slider('#ex2', {});
+
+		});
+
+
+	</script>
+
+	</body>
+</html>
+
+
